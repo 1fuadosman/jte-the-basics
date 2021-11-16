@@ -1,5 +1,7 @@
-void call(){
-    stage("Maven: Build"){
-        println "build from the maven library"
+class build {
+    void call() {
+        stage("Maven: Build") {
+            println "build from the maven library"
+        }
     }
 }

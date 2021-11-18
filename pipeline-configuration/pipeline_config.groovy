@@ -1,5 +1,4 @@
 libraries{
     gradle
-    maven
     sonarqube
 }

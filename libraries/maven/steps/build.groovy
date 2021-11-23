@@ -1,6 +1,6 @@
 void call() {
-    stage("SonarQube: Static Code Analysis") {
-        println "static code analysis from the sonarqube library"
+    stage("Maven: Build") {
+        println "build from the maven library"
     }
 }
 
